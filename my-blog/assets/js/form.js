@@ -62,7 +62,7 @@ const content = form.elements['content'].value.trim(); // ...^ content user inpu
                                                               // stringify(posts) is saying to take those blogPosts values and turn them back into JSON strings so that we can use them in posts.
                                                               // Basically, this is done so posts array data is saved into the LS. And JSON.stringify converts the array of posts into a format that can be stored as text again.
 
-    alert('Your blog has been successfully added!');
+    alert(`Hello ${username}, your blog has been successfully added!`); // Edited this to add a template literal to be more fancy.
 
     // REDIRECT to BLOG.HTML
     window.location.href = './blog.html'; // After submit was clicked, user is redirected to blog.html.
