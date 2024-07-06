@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custom Style Links to CSS -->
+    <link rel="stylesheet" href="./my-blog/assets/css/blog.css">
+    <link rel="stylesheet" href="./my-blog/assets/css/form.css">
+    <link rel="stylesheet" href="./my-blog/assets/css/styles.css">
+
+    <!-- Browser Tab Name / Site Name -->
+    <title>The Blog Experiment</title>
+</head>
+
+<body>
+    <!-- h1 Title Above the Form -->
+    <header>
+        <h1>
+            Create your new blog post!
+        </h1>
+
+    </header>
+    
+    <!-- Form Creation -->
+<main>
+    <form id="blogForm">
+        <!-- Form Fields Creation - with ID's -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title">
+
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" rows="10"></textarea>
+        <!-- Submit Button Creation -->
+        <button type="submit">Submit</button>
+    </form>
+</main>
+
+    <!-- Javascript Script Connection -->
+    <script src="./my-blog/assets/js/blog.js"></script>
+    <script src="./my-blog/assets/js/form.js"></script>
+    <script src="./my-blog/assets/js/logic.js"></script>
+</body>
+</html>
