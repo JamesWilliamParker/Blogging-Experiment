@@ -1,9 +1,9 @@
 # Blogging-Experiment
 
-# Deployment Link
+## Deployment Link
 https://jameswilliamparker.github.io/Blogging-Experiment/
 
-# Repository Link
+## Repository Link
 https://github.com/JamesWilliamParker/Blogging-Experiment
 
 ## Resources
