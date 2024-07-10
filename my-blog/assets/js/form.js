@@ -8,7 +8,7 @@
                                         // This will listen to the event when the DOM content (HTML structure) of the webpage is fully loaded and ready to be "used".
 document.addEventListener('DOMContentLoaded', function() { 
 
-            // {Pulling in ID blogForm for the Function.
+            // Pulling in ID blogForm for the Function.
                                         // This retrieves the form element with ID blogForm, and assigns it to the variable "form".
     const form = document.getElementById('blogForm');
 
